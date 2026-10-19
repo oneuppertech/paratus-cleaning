@@ -9,7 +9,7 @@
       <RouterLink to="/">
         <img :src="images.logo" alt="Paratus Dwellings" class="h-12 w-auto" @error="hideBroken" />
       </RouterLink>
-      <nav class="hidden lg:flex items-center gap-7" aria-label="Main">
+      <!-- <nav class="hidden lg:flex items-center gap-7" aria-label="Main">
         <RouterLink
           v-for="l in links"
           :key="l.to"
@@ -28,7 +28,7 @@
           <i class="fa-solid fa-phone mr-1"></i>
           {{ PHONE }}
         </a>
-      </nav>
+      </nav> -->
       <button
         class="lg:hidden text-2xl text-[#0A2A5C]"
         @click="menuOpen = !menuOpen"
